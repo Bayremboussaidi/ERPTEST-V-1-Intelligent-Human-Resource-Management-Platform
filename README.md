@@ -81,10 +81,14 @@ ERP operations before ERPTEST-V-1 relied on manual Excel sheets, scattered docum
 
 ## Deployment
 
-For deployment, the project uses Docker. **Sensitive information like database passwords is not included here**.  
+The project uses Docker for deployment. **Sensitive credentials like database passwords are not included**.  
 
-Generic Docker Compose example:
 
+
+
+### Docker Compose Example
+
+```yaml
 version: "3"
 
 services:
@@ -118,20 +122,4 @@ services:
 volumes:
   mysql_data:
 
-
-
-
-To run:  docker-compose up -d --build
-
-
-
-<your-db-user>, <your-db-password>, and <your-db-name> with your internal secure credentials. This information is private and should not be shared publicly.
-
-
-Author
-
-Bayrem Boussaidi
-Software Developer — DevOps | Node.js | Angular | Docker
-Email: bayremboussaidi187@gmail.com
-
-LinkedIn: linkedin.com/in/bayrem-boussaidi
+ ##Note: Replace <your-db-user>, <your-db-password>, and <your-db-name> with your internal secure credentials. This information is private and should not be shared publicly.
