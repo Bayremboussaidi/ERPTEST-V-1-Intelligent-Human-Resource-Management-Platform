@@ -79,6 +79,22 @@ ERP operations before ERPTEST-V-1 relied on manual Excel sheets, scattered docum
 
 ---
 
+
+## Author
+
+This project was developed as part of my professional internship at Global Enr
+. During the internship, I actively participated in the development of multiple modules across frontend and backend, collaborating closely with the team to implement features, ensure code quality, and integrate system functionalities.
+
+My contributions included:
+
+. Designing and implementing backend APIs and database interactions
+
+. Developing frontend components and user interfaces
+
+. Integrating Docker for deployment and environment management
+
+. Participating in team code reviews and collaborative problem-solving
+
 ## Deployment
 
 The project uses Docker for deployment. **Sensitive credentials like database passwords are not included**.  
