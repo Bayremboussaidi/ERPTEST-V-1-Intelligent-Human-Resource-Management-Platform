@@ -1,84 +1,50 @@
 # ERPTEST-V-1 — Intelligent Human Resource Management Platform
 
-ERPTEST-V-1 is a comprehensive HR management solution designed to modernize, automate, and digitize internal HR processes. It centralizes employee management, contract tracking, performance monitoring (KPIs), and internal communication.
+ERPTEST-V-1 is a comprehensive HR management solution designed to modernize, automate, and digitize internal HR processes. It centralizes employee management, contract tracking, performance monitoring, and internal communication. This project was developed for [Global Enr](https://www.linkedin.com/company/globalen).
 
 ---
 
 ## Table of Contents
 
-- [Vision & Objectives](#vision--objectives)  
-- [Impact on the Organization](#impact-on-the-organization)  
-- [Digital Transformation Highlights](#digital-transformation-highlights)  
-- [Key Innovations](#key-innovations)  
+- [Overview](#overview)  
+- [Impact & Benefits](#impact--benefits)  
+- [Key Features](#key-features)  
 - [Screenshots](#screenshots)  
 - [Tech Stack](#tech-stack)  
-- [Achievements](#achievements)  
+- [Deployment](#deployment)  
 - [Future Enhancements](#future-enhancements)  
 - [Author](#author)  
-- [Confidentiality Notice](#confidentiality-notice)  
 
 ---
 
-## Vision & Objectives
+## Overview
 
-ERP operations before ERPTEST-V-1 relied on manual Excel sheets, scattered documents, no centralized contract tracking, weak internal communication, and no KPI monitoring.
+ERP operations before ERPTEST-V-1 relied on manual Excel sheets, scattered documents, and no centralized tracking. ERPTEST-V-1 aims to:  
 
-**Objectives:**  
 - Centralize employee records and HR workflows  
-- Automate administrative processes  
-- Manage contracts (CDD, CDI, CIVP) with auto-generated PDFs  
-- Provide KPI dashboards for performance analysis  
-- Enable internal communication via HR blog  
-- Improve decision-making through analytics  
+- Automate contract generation and attendance tracking  
+- Provide KPI dashboards and analytics  
+- Enable internal communication through a blog  
+- Improve decision-making through data insights  
 
 ---
 
-## Impact on the Organization
+## Impact & Benefits
 
-1. **Administrative Efficiency**  
-   - Reduced HR workload by 40%  
-   - Eliminated document loss and manual tracking  
-   - Automated PDF contract generation  
-
-2. **Internal Communication**  
-   - Corporate blog for announcements and updates  
-   - Automated birthday posts  
-
-3. **Time Saving & Traceability**  
-   - Quick retrieval of documents  
-   - Complete history of HR actions  
-   - Automated CSV imports for attendance  
-
-4. **Performance Monitoring**  
-   - KPI dashboard with weighted scoring  
-   - Analytics by department, age, gender, and status  
-
-5. **Compliance & Security**  
-   - JWT authentication  
-   - Role-based access control  
-   - Dockerized deployment and environment isolation  
+- **Efficiency:** Reduced HR workload by 40%, automated document handling  
+- **Communication:** Corporate blog for announcements and automated posts  
+- **Traceability:** Full history of HR actions, fast document retrieval  
+- **Performance:** KPI dashboards by department, age, gender, and status  
+- **Security:** JWT authentication, role-based access, Dockerized deployment  
 
 ---
 
-## Digital Transformation Highlights
+## Key Features
 
-| Before ERPTEST-V-1           | After ERPTEST-V-1                     |
-| ---------------------------- | ------------------------------------ |
-| Multiple Excel files & emails | Unified web interface                |
-| Manual contract writing       | Automatic PDF generation             |
-| Minimal internal communication| HR blog + automated posts            |
-| Manual attendance entry       | CSV import + smart parsing           |
-| No analytics                  | KPI dashboards                        |
-
----
-
-## Key Innovations
-
-- Automated cron jobs for birthdays and announcements  
-- Secure contract PDF generation  
-- Dynamic KPI module (MongoDB)  
+- Automated PDF contract generation  
+- Dynamic KPI module  
 - Automated CSV attendance import  
-- Dockerized architecture  
+- Dockerized architecture for consistent deployments  
 - Multi-role access system  
 - Modular backend for scalability  
 
@@ -86,90 +52,85 @@ ERP operations before ERPTEST-V-1 relied on manual Excel sheets, scattered docum
 
 ## Screenshots
 
-1. **Dashboard – Global HR Overview**  
-   ![Dashboard](screenshots/dashboard.png)  
-
-2. **Employee Management Table**  
-   ![Employees](screenshots/employer.png)  
-
-3. **Add / Edit Employee Form**  
-   ![Employee Form](screenshots/gestion_des_utilisateurs.png)  
-
-4. **Contract Module (CDD / CDI / CIVP)**  
-   ![Contract Module](screenshots/types_des_contrats.png)  
-
-5. **Blog – Internal Communication Platform**  
-   ![Blog](screenshots/gestion_des_utilisateurs.png)  
-
-6. **Attendance / Pointage**  
-   ![Attendance](screenshots/etat_de_presence.png)  
-
-7. **KPI Module**  
-   ![KPI](screenshots/heures_de_travail.png)  
-
-8. **Bank Information Module**  
-   ![Bank Info](screenshots/informations_bancaires.png)  
-
-9. **HR Requests (Demandes)**  
-   ![Requests](screenshots/gestion_des_demandes.png)  
-
-10. **Reclamations / Complaints**  
-    ![Reclamations](screenshots/gestion_des_reclamations.png)  
-
-11. **System Menu**  
-    ![Menu](screenshots/gestion_des_utilisateurs.png)  
+| Feature | Screenshot |
+| ------- | ---------- |
+| Dashboard | ![Dashboard](screenshots/dashboard.png) |
+| Employee Management | ![Employees](screenshots/employer.png) |
+| Add/Edit Employee | ![Employee Form](screenshots/gestion_des_utilisateurs.png) |
+| Contract Module | ![Contracts](screenshots/types_des_contrats.png) |
+| Blog & Communication | ![Blog](screenshots/gestion_des_utilisateurs.png) |
+| Attendance / Pointage | ![Attendance](screenshots/etat_de_presence.png) |
+| KPI Module | ![KPI](screenshots/heures_de_travail.png) |
+| Bank Info | ![Bank](screenshots/informations_bancaires.png) |
+| HR Requests | ![Requests](screenshots/gestion_des_demandes.png) |
 
 ---
 
 ## Tech Stack
 
-| Area          | Technologies                       |
-| ------------- | ---------------------------------- |
-| Frontend      | Angular, TypeScript, SCSS, PrimeNG |
-| Backend       | Node.js, Express.js                |
-| Database      | MySQL (XAMPP), MongoDB (KPI)       |
-| Security      | JWT, dotenv, role-check middleware |
-| Automation    | node-cron, multer                  |
-| PDF / Docs    | pdfkit                             |
-| Deployment    | Docker, docker-compose             |
+| Layer | Technologies |
+| ----- | ------------ |
+| Frontend | Angular, TypeScript, SCSS, PrimeNG |
+| Backend | Node.js, Express.js |
+| Database | MySQL, MongoDB (KPI) |
+| Security | JWT, dotenv, role-check middleware |
+| Automation | node-cron, multer |
+| PDF / Documents | pdfkit |
+| Deployment | Docker, docker-compose |
 
 ---
 
-## Achievements
+## Deployment
 
-- 40% faster HR operations  
-- 10,000+ documents centralized  
-- Automation of major HR workflows  
-- 100% contract digitization  
-- 25% increase in employee engagement  
+For deployment, the project uses Docker. **Sensitive information like database passwords is not included here**.  
 
----
+Generic Docker Compose example:
 
-## Future Enhancements
+```yaml
+version: "3"
 
-- Internal HR ↔ Employee chat system  
-- AI-based predictive performance analytics  
-- Integration with external APIs (payroll, leave management)  
-- Unified access management via Keycloak dashboard  
+services:
+  frontend:
+    build: ./FrontSide
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend
 
----
+  backend:
+    build: ./backendSide
+    ports:
+      - 3001:3001
+    environment:
+      - DB_HOST=db
+      - DB_USER=<your-db-user>
+      - DB_PASSWORD=<your-db-password>
+      - DB_DATABASE=<your-db-name>
+    depends_on:
+      - db
 
-## Author
+  db:
+    image: mysql:8.0
+    environment:
+      - MYSQL_ROOT_PASSWORD=<your-root-password>
+      - MYSQL_DATABASE=<your-db-name>
+    volumes:
+      - mysql_data:/var/lib/mysql  
 
-**Bayrem Boussaidi**  
-Software Developer — DevOps | Node.js | Angular | Docker  
-📍 Tunisia  
-📧 [bayremboussaidi187@gmail.com](mailto:bayremboussaidi187@gmail.com)  
-🔗 [LinkedIn](https://linkedin.com/in/bayrem-boussaidi)  
-🖥️ [Portfolio](https://your-portfolio-link.com)  
+volumes:
+  mysql_data:
 
----
+To run:
 
-## Confidentiality Notice
+docker-compose up -d --build
 
-**Source Code Privacy**  
-The full source code of ERPTEST-V-1 is private and confidential.  
-Developed during a professional internship, it is protected under company intellectual property and data protection policies.  
 
-Repository access is restricted and available only upon formal professional request.  
-© 2025 — All rights reserved to the company and the author, Bayrem Boussaidi.
+Replace <your-db-user>, <your-db-password>, and <your-db-name> with your secure internal credentials.
+
+Author
+
+Bayrem Boussaidi
+Software Developer — DevOps | Node.js | Angular | Docker
+Email: bayremboussaidi187@gmail.com
+
+LinkedIn: linkedin.com/in/bayrem-boussaidi
