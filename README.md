@@ -11,8 +11,7 @@ ERPTEST-V-1 is a comprehensive HR management solution designed to modernize, aut
 - [Key Features](#key-features)  
 - [Screenshots](#screenshots)  
 - [Tech Stack](#tech-stack)  
-- [Deployment](#deployment)  
-- [Future Enhancements](#future-enhancements)  
+- [Deployment](#deployment)   
 - [Author](#author)  
 
 ---
@@ -129,6 +128,7 @@ Replace <your-db-user>, <your-db-password>, and <your-db-name> with your secure 
 
 Author
 
+#author
 Bayrem Boussaidi
 Software Developer — DevOps | Node.js | Angular | Docker
 Email: bayremboussaidi187@gmail.com
