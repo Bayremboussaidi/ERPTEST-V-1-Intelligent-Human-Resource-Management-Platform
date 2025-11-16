@@ -124,11 +124,11 @@ To run:
 docker-compose up -d --build
 
 
-Replace <your-db-user>, <your-db-password>, and <your-db-name> with your secure internal credentials.
+Replace <your-db-user>, <your-db-password>, and <your-db-name> with your secure internal credentials. 
 
 Author
 
-#author
+
 Bayrem Boussaidi
 Software Developer — DevOps | Node.js | Angular | Docker
 Email: bayremboussaidi187@gmail.com
