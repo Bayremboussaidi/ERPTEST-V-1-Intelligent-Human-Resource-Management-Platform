@@ -125,20 +125,122 @@ Dockerized deployment & .env isolation
 | ---------------------------------- | ------------------------------------ |
 | Multiple Excel files & emails      | Unified web interface                |
 | Manually written contracts         | Automatic PDF generation             |
-| Minimal internal communication     | Collaborative company blog           |
-| Manual attendance entry            | Automated CSV import                 |
-| Paper-based KPI tracking           | Real-time dashboards                 |
+| Minimal internal communication     | HR blog + automated posts            |
+| Manual attendance entry            | CSV import + smart parsing           |
+| No analytics                       | Rich KPI dashboards                  |
 
 ---
 
 ##  Key Innovations
 
-- Automated **cron jobs** for HR publications (birthdays, events)  
-- **PDF generation** with secure signing & archiving  
-- Intelligent data import for attendance tracking  
-- **Dynamic KPI module** stored in MongoDB  
-- **Dockerized backend & frontend** for seamless deployment  
-- **Modular architecture** for future scalability  
+🔁 Automated cron jobs (birthdays, announcements)
+
+🧾 Secure contract PDF generation
+
+📊 Dynamic KPI module (MongoDB)
+
+📥 Automated CSV attendance import
+
+🐳 Dockerized architecture
+
+🗂 Multi-role access system
+
+📡 Modular backend for scalability 
+
+---
+
+1️⃣ Dashboard – Global HR Overview
+
+![Dashboard](screenshots/dashboard.png)
+
+Shows:
+
+- Total employees  
+- Departments  
+- Job titles  
+- Gender & status repartition  
+- Salary and age analytics  
+
+
+2️⃣ Employee Management Table
+
+![Employees](screenshots/employer.png)
+
+Includes:
+
+- Matricule  
+- Photo  
+- Status  
+- Department  
+- Role  
+- Actions  
+- Advanced filters  
+
+
+3️⃣ Add / Edit Employee Form
+
+![Employee Form](screenshots/gestion_des_utilisateurs.png)
+
+
+4️⃣ Contract Module (CDD / CDI / CIVP)
+
+![Contract Module](screenshots/types_des_contrats.png)
+
+
+Example Contract (PDF Preview):
+
+![Contract PDF](screenshots/types_des_contrats.png)
+
+
+5️⃣ Blog – Internal Communication Platform
+
+![Blog](screenshots/gestion_des_utilisateurs.png)
+
+Features:
+
+- HR announcements  
+- Birthday auto-posts  
+- Team updates  
+
+
+6️⃣ Attendance / Pointage
+
+![Attendance](screenshots/etat_de_presence.png)
+
+
+7️⃣ KPI Module
+
+![KPI](screenshots/heures_de_travail.png)
+
+
+8️⃣ Bank Information Module
+
+![Bank Info](screenshots/informations_bancaires.png)
+
+
+9️⃣ HR Requests (Demandes)
+
+![Requests](screenshots/gestion_des_demandes.png)
+
+
+🔟 Reclamations / Complaints
+
+![Reclamations](screenshots/gestion_des_reclamations.png)
+
+
+1️⃣1️⃣ System Menu
+
+![Menu](screenshots/gestion_des_utilisateurs.png)
+
+
+
+
+
+
+
+
+
+
 
 ---
 
@@ -176,11 +278,15 @@ Responsible for the **complete backend (Node.js / Express.js)** and **frontend (
 
 ## Achieved Results
 
-- 📉 40% reduction in HR administrative time  
-- 📂 Centralization of over **10,000 internal documents**  
-- 🔄 Full automation of 4 major HR processes  
-- 🧾 100% of employee contracts digitally archived  
-- 💬 **+25% increase in employee engagement** via blog & auto-posts  
+📉 40% faster HR operations
+
+📁 10,000+ documents centralized
+
+🔄 Automation of major HR workflows
+
+🧾 100% contract digitization
+
+💬 +25% employee engagement
 
 ---
 
