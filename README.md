@@ -85,7 +85,6 @@ For deployment, the project uses Docker. **Sensitive information like database p
 
 Generic Docker Compose example:
 
-```yaml
 version: "3"
 
 services:
@@ -119,15 +118,17 @@ services:
 volumes:
   mysql_data:
 
-To run:
-
-docker-compose up -d --build
 
 
-Replace <your-db-user>, <your-db-password>, and <your-db-name> with your secure internal credentials. 
+
+To run:  docker-compose up -d --build
+
+
+
+<your-db-user>, <your-db-password>, and <your-db-name> with your internal secure credentials. This information is private and should not be shared publicly.
+
 
 Author
-
 
 Bayrem Boussaidi
 Software Developer — DevOps | Node.js | Angular | Docker
