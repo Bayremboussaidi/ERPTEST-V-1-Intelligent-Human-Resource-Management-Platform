@@ -10,9 +10,10 @@ ERPTEST-V-1 is a comprehensive HR management solution designed to modernize, aut
 - [Impact & Benefits](#impact--benefits)  
 - [Key Features](#key-features)  
 - [Screenshots](#screenshots)  
-- [Tech Stack](#tech-stack)  
+- [Tech Stack](#tech-stack)
+-  [Author](#author)  
 - [Deployment](#deployment)   
-- [Author](#author)  
+
 
 ---
 
@@ -81,7 +82,7 @@ ERP operations before ERPTEST-V-1 relied on manual Excel sheets, scattered docum
 
 
 ## Author
-
+Software Developer — DevOps | Node.js | Angular | Docker
 This project was developed as part of my professional internship at Global Enr
 . During the internship, I actively participated in the development of multiple modules across frontend and backend, collaborating closely with the team to implement features, ensure code quality, and integrate system functionalities.
 
