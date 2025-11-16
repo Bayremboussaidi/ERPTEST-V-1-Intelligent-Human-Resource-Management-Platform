@@ -10,56 +10,112 @@ ERPTEST-V-1 is a comprehensive HR management solution designed to modernize, aut
 ![Docker](https://img.shields.io/badge/Deployment-Docker-blue)
 ![Status](https://img.shields.io/badge/Code-Private-lightgrey)
 
-> **ERPTEST-V-1** is a comprehensive HR management solution designed to modernize, automate, and digitize a company’s internal processes.  
-> Built as an **internal ERP**, it centralizes employee management, contracts, performance indicators (KPIs), and internal communication.
+ERPTEST-V-1 is a full HR Management Platform designed to digitize, modernize, and automate internal HR operations within a growing company.
+It centralizes employee data, contracts, attendance, KPI analytics, and internal communication.
+
+⚠️ Note: Source code is private due to company confidentiality.
+This README provides a full professional overview of the system capabilities.
 
 ---
+
+
+📘 Table of Contents
+
+Vision & Objectives
+
+Impact on the Organization
+
+Digital Transformation Highlights
+
+Key Innovations
+
+Screenshots
+
+Tech Stack
+
+Architecture Overview
+
+Achievements
+
+Future Enhancements
+
+Author
+
+Confidentiality Notice
+
+
 
 ##  Vision & Objectives
 
-Before ERPTEST-V-1, the company faced multiple HR challenges:
+Before ERPTEST-V-1, HR operations relied on:
 
-- **Manual and fragmented processes** (Excel sheets, emails, local files)  
-- Difficulty in **tracking contracts, attendance, and performance**  
-- Lack of **internal communication and corporate culture**
+Manual Excel sheets
 
-**Goal:** unify all HR functions into a single platform, accessible to HR managers, engineers, and executives.
+Scattered documents (emails, drives, folders)
 
-**Key objectives:**
+No centralized contract tracking
 
-- Automate administrative tasks  
-- Centralize employee data  
-- Monitor performance and attendance in real time  
-- Foster internal communication via a corporate blog  
+No performance scoring system
+
+Weak internal communication
+
+Goal: Unify all HR operations into a single intelligent ERP platform.
+
+✔ Key Objectives
+
+Automate administrative processes
+
+Centralize employee records
+
+Manage contracts (CDD, CDI, CIVP) with auto-generated PDFs
+
+Provide smart KPI dashboards
+
+Offer a communication channel via HR blog
+
+Improve decision-making with analytics
 
 ---
 
-##  Impact on the Organization
+1. Administrative Efficiency
 
-### 1. Administrative Efficiency
-- Reduced **HR document management time by 40%**  
-- Fewer manual errors from data entry and email exchanges  
-- Simplified contract tracking (CDD, CDI, CIVP) through automatic PDF generation  
+Reduced HR workload by 40%
 
-### 2. Improved Internal Communication
-- Created a **corporate blog** for announcements, team successes, and HR posts  
-- Automated **birthday posts** via a cron job 🎉  
-- Strengthened team cohesion and engagement  
+Eliminated document loss and manual tracking
 
-### 3. Time Saving & Traceability
-- Centralized all HR information in one interface  
-- Retrieve employee documents in seconds  
-- Automatic history logging for all HR actions (add, delete, update)  
+Automatic PDF contract generation
 
-### 4. Performance Monitoring
-- Integrated **KPI module** to track individual performance  
-- Automatic weighted score calculations per role  
-- Visual HR analytics (age, department, seniority, gender, etc.)  
+2. Better Internal Communication
 
-### 5. Compliance & Security
-- Role-based access control (`ADMIN`, `HR`, `ENGINEER`, `PF`, `SI`)  
-- JWT authentication with `.env` environment isolation  
-- Automated database backups via XAMPP / Docker  
+Corporate blog (announcements, HR communications)
+
+Automated birthday posts (cron jobs) 🎉
+
+Higher engagement + unified culture
+
+3. Time Saving & Traceability
+
+All documents retrievable in seconds
+
+Complete history of every HR action
+
+Automatic CSV imports for attendance
+
+4. Performance Monitoring
+
+KPI dashboard with weighted scoring
+
+Analytics by department, age, gender, status
+
+Real-time visual insights
+
+5. Compliance & Security
+
+JWT authentication
+
+Role-based access control
+
+Dockerized deployment & .env isolation 
 
 ---
 
